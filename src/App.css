@@ -1,0 +1,116 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-image: url("https://w.forfun.com/fetch/e8/e8f3b8158d9fad3d65a387524fefb3ee.jpeg");
+  background-size: contain;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.app-wrapper{
+  background-color: #504F8F;
+  min-width: 450px;
+  min-height: 650px;
+  padding: 30px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.header h1{
+  color: lemonchiffon;
+  text-align: center;
+  margin: 30px 0;
+  font-family: Bahnschrift, serif;
+  font-weight:bolder;
+}
+
+.task-input {
+  outline: none;
+  width: 260px;
+  padding: 15px;
+  margin-right: 25px;
+  font-size: 22px;
+  background-color: #504F8F;
+  border: 2px solid lemonchiffon;
+  border-radius: 4px;
+  color: lemonchiffon;
+}
+
+
+.button-add {
+  width: 70px;
+  padding: 15px 15px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: 0;
+  background-color: lemonchiffon;
+  cursor: pointer;
+
+}
+
+
+.list-item {
+  display: flex;
+  margin:20px 0;
+  border:2px solid lemonchiffon;
+  border-radius: 4px;
+  max-height: 30px;
+  padding: 10px;
+
+}
+
+.button-complete,
+.button-delete,
+.button-edit {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  font-size: 20px;
+  border-radius: 50%;
+}
+
+.button-complete {
+  color: burlywood;
+  margin-right: 10px;
+}
+
+.button-edit{
+  color: midnightblue;
+  margin-right: 10px;
+}
+
+.button-delete{
+  color:darkred;
+}
+
+.complete{
+  text-decoration-style: solid;
+  text-decoration-line: line-through;
+  text-decoration-color: lemonchiffon;
+  opacity: 0.6;
+}
+
+.list {
+  width: 220px;
+  background-color: #504F8F;
+  border: none;
+  color:lemonchiffon;
+  font-size: 20px;
+  padding-left: 10px;
+  margin-right: 15px;
+  text-decoration-color: lemonchiffon;
+
+}
+input:focus,
+button:focus {
+  outline: none;
+}
